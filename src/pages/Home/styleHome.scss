@@ -4,6 +4,27 @@
     color: white;
     font-family: 'GrenzeRegular';
   }
+
+.Home-h1{
+  font-family: 'GrenzeRegular';
+  font-size: 400%;
+  position: absolute;
+  left: 15%;
+}
+.Home-h2{
+  font-family: 'GrenzeRegular';
+  font-size: 400%;
+  position: absolute;
+  left: 40%;
+
+}
+.Home-h3{
+  font-family: 'GrenzeRegular';
+  font-size: 400%;
+  position: absolute;
+  left: 60%;
+  margin-top: 5%;
+}
   
   .Home-span1{
     text-align: right;
@@ -11,7 +32,7 @@
     font-family: 'GrenzeRegular';
     position: absolute;
     right: 5%;
-    top: 25%;
+    margin-top: 10%;
     font-size: 200%;
     padding: 3px 5px;
   }
@@ -22,9 +43,9 @@
     color: white;
     font-family: 'GrenzeRegular';
     right: 5%;
-    top: 200%;
+    margin-top: 40%;
     font-size: 200%;
-    padding: 3px 5px;
+    padding: 20px 15px;
     }
     
  .Home-span3{
@@ -33,7 +54,7 @@
     color: white;
     font-family: 'GrenzeRegular';
     right: 25%;
-    top: 270%;
+    margin-top: 10%;
     font-size: 200%;
     padding: 3px 5px;
     }
@@ -44,7 +65,7 @@
     color: white;
     font-family: 'GrenzeRegular';
     left: 30%;
-    top: 450%;
+    margin-top: 43%;
     font-size: 200%;
     padding: 3px 5px;
     } 
@@ -55,16 +76,13 @@
     color: white;
     font-family: 'GrenzeRegular';
     left: 25%;
-    top: 585%;
+    margin-top: 47%;
     font-size: 200%;
     padding: 3px 5px;
     } 
 
   .Home img{
   width: 100%;
-  position: relative;
-  display: inline-block;
-  margin-top: 0px;
   }
   
   @font-face
