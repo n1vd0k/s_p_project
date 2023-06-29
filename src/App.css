@@ -1,41 +1,38 @@
 .App {
-  text-align: center; 
-  background-color: black;
-  color: white;
-  font-family: 'GrenzeRegular';
+  text-align: center;
 }
 
-.App-span1{
-text-align: right;
-color: white;
-font-family: 'GrenzeRegular';
-position: absolute;
-right: 5%;
-top: 25%;
-font-size: 40px;
-padding: 3px 5px;
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
 }
 
-.App-span2{
-  text-align: right;
-  color: white;
-  font-family: 'GrenzeRegular';
-  position:unset;
-  right: 5%;
-  top: 25%;
-  font-size: 40px;
-  padding: 3px 5px;
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 200s linear;
   }
-
-.App img{
-width: 100%;
-position: relative;
-display: inline-block;
-margin-top: 0px;
 }
 
-@font-face
-  {
-  font-family: GrenzeRegular;
-  src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
   }
+  to {
+    transform: rotate(360deg);
+  }
+}
