@@ -1,13 +1,15 @@
 import React from "react";
 import './stylehead.scss'
+import { Link } from "react-router-dom";
+
 const HeaderS = () => {
     return(
         <>
         <div className="header">
-            <div>назад</div>
-            <div>домой</div>
+            <div><img src="./site content/icoBnack.png"></img></div>
+            <div><Link to = {'/'}><img src="./site content/iconHome.png"></img></Link></div>
             <div>название</div>
-            <div>вперед</div>
+            <div><img src="./site content/iconFor.png"></img></div>
         </div>
         </>
     )
