@@ -6,10 +6,10 @@ const HeaderS = () => {
     return(
         <>
         <div className="header">
-            <div><img src="./site content/icoBnack.png"></img></div>
-            <div><Link to = {'/'}><img src="./site content/iconHome.png"></img></Link></div>
+            <div><img src="./site content/icoBnack.png" alt=""></img></div>
+            <div><Link to = {'/'}><img src="./site content/iconHome.png"alt=""></img></Link></div>
             <div>название</div>
-            <div><img src="./site content/iconFor.png"></img></div>
+            <div><img src="./site content/iconFor.png"alt=""></img></div>
         </div>
         </>
     )
