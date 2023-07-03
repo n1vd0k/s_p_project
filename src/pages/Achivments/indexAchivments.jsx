@@ -1,8 +1,11 @@
 import React from "react";
 import './styleA.scss'
+import ACHIVMENTS from "../../header/ach";
 const Achivments = () => {
     return(
-        <div><p className="txt">
+        <div>
+        <ACHIVMENTS/>    
+        <p className="txt">
         5-time NBA champion : 2000, 2001, 2002, 2009, 2010<br/>
         7 NBA Finals appearances: 2000, 2001, 2002, 2004, 2008, 2009, 2010<br/>
         2-time NBA Finals MVP : 2009, 2010<br/>

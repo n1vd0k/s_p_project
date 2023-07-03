@@ -1,8 +1,10 @@
 import React from "react";
 import './styleC.scss'
+import CAREERE from "../../header/car";
 const Careere = () => {
     return(
         <div className="body"> 
+        <CAREERE/>
             <div><p className="txt1">In 1996, Kobe became the first quarterback drafted by the NBA straight out of high school.<br/> Kobe was selected in the first round at number 13 by the Charlotte Hornets, but was<br/> immediately given to the Los Angeles Lakers by prior agreement of the clubs (the Lakers<br/> informed the Hornets who they should select in the draft, just a few minutes before the draft<br/> itself). 
             </p><img className="body-img1" src="./site content/car1.jpg" ></img>
             </div>

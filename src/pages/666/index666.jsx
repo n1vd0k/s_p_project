@@ -1,8 +1,10 @@
 import React from "react";
 import "./style6.scss"
+import TREN666 from "../../header/tren";
 const T666 = () => {
     return(
         <div className="body"> 
+        <TREN666/>
             <div><p className="tren-txt1">1000 ring shots and 20 minutes of dribbling.<br/>
 Kobe Bryant has a unique way of training, which is known as 666. Named so because<br/> Bryant trains 6 days a week, 6 hours a day and 6 months a year. 6 hours of training are<br/> divided into 2 hours of running, 2 hours of basketball skills and 2 hours of weightlifting <br/>(which includes one hour of cardio). 
             </p><img className="tren-img1" src="./site content/6661.jpg" alt=""></img>

@@ -5,7 +5,6 @@ import Careere from './pages/Careere/indexCareere';
 import Mamba from './pages/Mamba Mentality/indexMamba';
 import T666 from './pages/666/index666';
 import Achivments from './pages/Achivments/indexAchivments';
-import HeaderS from './header';
 import './stylefooter.scss'
 
 function App() {
@@ -14,9 +13,6 @@ function App() {
       <BrowserRouter>
       <Routes>
         <Route path='/' element={<HomePage/>}  ></Route>
-      </Routes>
-      <HeaderS/>{" "}
-      <Routes>
         <Route path='/Careere' element={<Careere/>}  ></Route>
         <Route path='/Achivments' element={<Achivments/>}  ></Route>
         <Route path='/T666' element={<T666/>}  ></Route>
