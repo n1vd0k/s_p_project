@@ -39,8 +39,8 @@ const Achivments = () => {
         The Player of the Month was awarded separately for the Eastern and Western Conference starting with the 2001-02 season.
         
         </p>
-        <img className="img1" src="./site content/ac1.jpg" alt=""></img>
-        <img className="img2" src="./site content/ac2.jpg" alt=""></img>
+        <img className="ac-img1" src="./site content/ac1.jpg" alt=""></img>
+        <img className="ac-img2" src="./site content/ac2.jpg" alt=""></img>
         </div>
     );
 }
