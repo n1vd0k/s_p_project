@@ -4,9 +4,9 @@ const Careere = () => {
     return(
         <div className="body"> 
             <div><p className="txt1">In 1996, Kobe became the first quarterback drafted by the NBA straight out of high school.<br/> Kobe was selected in the first round at number 13 by the Charlotte Hornets, but was<br/> immediately given to the Los Angeles Lakers by prior agreement of the clubs (the Lakers<br/> informed the Hornets who they should select in the draft, just a few minutes before the draft<br/> itself). 
-            </p><img className="img1" src="./site content/car1.jpg" alt=""></img>
+            </p><img className="img1" src="./site content/car1.jpg" ></img>
             </div>
-            <div><img className="img2" src="./site content/car2.jpg" alt=""></img>
+            <div><img className="img2" src="./site content/car2.jpg"></img>
             <p className="txt2">Having appeared in the Lakers in a duet with the famous Shaquille O'Neal, he won three<br/> consecutive NBA champion titles (2000, 2001, 2002). After that, a feud began between them,<br/> which ended with the exchange of Shaq to the Miami Heat after the 2004 NBA Finals.<br/><br/>
 After his departure, Bryant became the main star of the Lakers and the undisputed leader and<br/> symbol of the team. Kobe began to break all possible performance records — so, in the<br/> 2005/06 and 2006/07 seasons, he was recognized as the best sniper of the regular season.<br/><br/>
 In 2006, he scored 81 points in a game with the Toronto Raptors, setting the second record for<br/> points scored in one game, after Wilt Chamberlain's one-point match in 1962.<br/><br/> 
