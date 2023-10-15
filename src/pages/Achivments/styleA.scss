@@ -2,20 +2,19 @@
     color: white;
     font-family: 'GrenzeRegular';
     text-align: left;
-    margin-left: 5%; /* Измените отступ, чтобы текст был ближе к левому краю */
-    margin-right: 5%; /* Измените отступ, чтобы текст был ближе к правому краю на широких экранах */
-    line-height: 1.6; /* Уменьшите высоту строки для лучшей читаемости */
-    font-size: 2.5vw; /* Используйте относительные единицы для шрифта */
+    margin-left: 5%; 
+    margin-right: 5%;
+    line-height: 1.6; 
+    font-size: 2.5vw; 
 }
 
 .ac-img1, .ac-img2 {
-    width: 50%; /* Установите ширину изображений в процентах от родительского контейнера */
-    margin-left: 5%; /* Измените отступ, чтобы изображение было ближе к левому краю */
-    margin-top: 5%; /* Измените отступ сверху */
+    width: 50%;
+    margin-left: 5%; 
 }
 
 .ac-img2 {
-    margin-bottom: 10%; /* Измените отступ снизу для второго изображения */
+    margin-bottom: 10%; 
 }
 
 @font-face {
@@ -23,16 +22,16 @@
     src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
 }
 
-/* Медиа-запрос для мобильных устройств */
+
 @media screen and (max-width: 992px) {
     .txt {
-        font-size: 1.5rem; /* Уменьшите размер шрифта для мобильных устройств */
-        margin: 0 5%; /* Сброс отступов по бокам */
-        text-align: center; /* Центрируйте текст на мобильных устройствах */
+        font-size: 1.5rem; 
+        margin: 0 5%; 
+        text-align: center; 
     }
 
     .ac-img1, .ac-img2 {
-        width: 100%; /* Автоматическая ширина для мобильных устройств */
-        margin: 0; /* Сброс отступов */
+        width: 100%; 
+        margin: 0; 
     }
 }

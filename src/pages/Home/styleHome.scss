@@ -1,94 +1,82 @@
 .Home {
-    text-align: center; 
-    background-color: black;
-    color: white;
-    font-family: 'GrenzeRegular';
-  }
-
-.Home-h1{
+  text-align: center;
+  background-color: black;
+  color: white;
   font-family: 'GrenzeRegular';
-  font-size: 400%;
-  position: absolute;
-  left: 15%;
 }
-.Home-h2{
-  font-family: 'GrenzeRegular';
-  font-size: 400%;
-  position: absolute;
-  left: 40%;
 
+.Home-h1 {
+  font-size: 4em; /* Используем em для шрифта для лучшей адаптивности */
+  margin: 0 0 10px 0; /* Установка отступов вместо position: absolute */
 }
-.Home-h3{
-  font-family: 'GrenzeRegular';
-  font-size: 400%;
-  position: absolute;
-  left: 60%;
-  margin-top: 5%;
+
+.Home-h2 {
+  font-size: 4em;
+  margin: 0 0 10px 0;
 }
-  
-  .Home-span1{
-    text-align: right;
-    color: white;
-    font-family: 'GrenzeRegular';
-    position: absolute;
-    right: 5%;
-    margin-top: 10%;
-    font-size: 200%;
-    padding: 3px 5px;
-  }
-  
-  .Home-span2{
-    text-align: right;
-    position: absolute;
-    color: white;
-    font-family: 'GrenzeRegular';
-    right: 5%;
-    margin-top: 40%;
-    font-size: 200%;
-    padding: 20px 15px;
-    }
-    
- .Home-span3{
-    text-align: center;
-    position: absolute;
-    color: white;
-    font-family: 'GrenzeRegular';
-    right: 25%;
-    margin-top: 10%;
-    font-size: 200%;
-    padding: 3px 5px;
-    }
 
-.Home-span4{
-    text-align: left;
-    position: absolute;
-    color: white;
-    font-family: 'GrenzeRegular';
-    left: 30%;
-    margin-top: 43%;
-    font-size: 200%;
-    padding: 3px 5px;
-    } 
+.Home-h3 {
+  font-size: 4em;
+  margin: 5% 0; /* Изменение верхнего отступа */
+}
 
-.Home-span5{
-    text-align: center;
-    position: absolute;
-    color: white;
-    font-family: 'GrenzeRegular';
-    left: 25%;
-    margin-top: 47%;
-    font-size: 200%;
-    padding: 3px 5px;
-    } 
+.Home-span1,
+.Home-span2,
+.Home-span3,
+.Home-span4,
+.Home-span5 {
+  font-size: 2em; /* Используем em для шрифта для лучшей адаптивности */
+  padding: 10px 15px; /* Изменение отступов */
+  margin: 0; /* Убираем верхний отступ */
+  text-align: right;
+}
 
-  .Home img{
+.Home-span1 {
+  margin-top: 10%;
+}
+
+.Home-span2 {
+  margin-top: 40%;
+}
+
+.Home-span3 {
+  margin-top: 10%;
+  text-align: center;
+  right: 25%;
+}
+
+.Home-span4 {
+  margin-top: 43%;
+  text-align: left;
+  left: 30%;
+}
+
+.Home-span5 {
+  margin-top: 47%;
+  text-align: center;
+  left: 25%;
+}
+
+.Home img {
   width: 100%;
+}
+
+@font-face {
+  font-family: GrenzeRegular;
+  src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
+  font-size: 40px;
+}
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 768px) {
+  .Home-h1,
+  .Home-h2,
+  .Home-h3,
+  .Home-span1,
+  .Home-span2,
+  .Home-span3,
+  .Home-span4,
+  .Home-span5 {
+    font-size: 2em; /* Уменьшите размер шрифта для мобильных устройств */
   }
-  
-  @font-face
-    {
-    font-family: GrenzeRegular;
-    src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
-    font-size: 40px;
-    }
-  
+}

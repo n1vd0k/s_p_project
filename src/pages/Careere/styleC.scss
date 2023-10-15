@@ -5,35 +5,35 @@
 
 .txt1{
     font-family: 'GrenzeRegular';
-    font-size: 2.5vw; /* Используйте относительные единицы для шрифтов */
+    font-size: 2.5vw; 
     text-align: left;
-    margin-left: 5%; /* Измените отступ, чтобы текст был ближе к левому краю */
-    margin-top: 3%; /* Измените отступ сверху */
-    line-height: 1.6; /* Уменьшите высоту строки для лучшей читаемости */
+    margin-left: 5%; 
+    margin-top: 3%; 
+    line-height: 1.6; 
 }
 
 .txt2{
     font-family: 'GrenzeRegular';
-    font-size: 2.5vw; /* Используйте относительные единицы для шрифтов */
+    font-size: 2.5vw; 
     text-align: left;
-    margin-left: 10%; /* Измените отступ, чтобы текст был ближе к левому краю */
-    line-height: 1.6; /* Уменьшите высоту строки для лучшей читаемости */
+    margin-left: 10%; 
+    line-height: 1.6; 
 }
 
 .txt3{
     font-family: 'GrenzeRegular';
-    font-size: 2.5vw; /* Используйте относительные единицы для шрифтов */
+    font-size: 2.5vw; 
     text-align: left;
-    margin-left: 10%; /* Измените отступ, чтобы текст был ближе к левому краю */
-    margin-top: 2%; /* Измените отступ сверху */
-    line-height: 1.6; /* Уменьшите высоту строки для лучшей читаемости */
+    margin-left: 10%; 
+    margin-top: 2%; 
+    line-height: 1.6; 
 }
 
 .body-img1, .body-img2, .body-img3{
-    width: 30%; /* Автоматический масштаб по ширине */
-    max-width: 100%; /* Установите максимальную ширину */
-    height: auto; /* Автоматическая высота для сохранения пропорций изображения */
-    margin-bottom: 2%; /* Используйте проценты для отступов */
+    width: 30%; 
+    max-width: 100%; 
+    height: auto; 
+    margin-bottom: 2%; 
 }
 
 @font-face {
@@ -41,12 +41,11 @@
     src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
 }
 
-/* Медиа-запрос для мобильных устройств */
 @media screen and (max-width: 992px) {
     .txt1, .txt2, .txt3{
-        font-size: 16px; /* Установите фиксированный размер шрифта для мобильных устройств */
-        margin: 0 5%; /* Сброс отступов по бокам */
-        text-align: center; /* Центрируйте текст на мобильных устройствах */
+        font-size: 16px;
+        margin: 0 5%; 
+        text-align: center; 
     }
 
 }
