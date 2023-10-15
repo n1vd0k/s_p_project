@@ -3,58 +3,91 @@
     color: white;
     text-align: center;
 }
+
 .m-img1{
     margin-top: 5%;
-    margin-left: -45%;
+    margin-left: 0%;
+    width: 25%; 
 }
+
 .m-txt{
     color: white;
-    font-family:GrenzeRegular ;
+    font-family: 'GrenzeRegular';
     text-align: left;
-    margin-left: 15%;
-    line-height: 2;
-    font-size: 28px;
+    margin-left: 10%; 
+    line-height: 1.6; 
+    font-size: 2.5vw; 
 }
-.m-h1{
-    >h1{color: white;
-    font-family:GrenzeRegular;
-    font-size: 40px;
+
+.m-h1 h1{
+    color: white;
+    font-family: 'GrenzeRegular';
+    font-size: 3vw;
     top: 11%;
-    left: 40%;
-    position: absolute;
-    }
-    >h2{
-        color: white;
-        font-family:GrenzeRegular;
-        font-size: 28px;
-        top: 20%;
-        left: 40.5%;
-        position: absolute; 
-        text-align: left;
-    }
-    >button{
-            color: white;
-            font-family:GrenzeRegular;
-            font-size: 28px;
-            top: 50%;
-            left: 40.5%;
-            position: absolute;
-            background-color: rgb(97, 0, 0);
-            width: 145px;
-            border-radius: 20px;
-            border-color:rgba(255, 0, 0, 0)
-        }
-    >button:hover {
-            background-color:#ff0000;
-            transition: 0.3s;
-        }
+    margin-left: 10%;
 }
+
+.m-h1 h2{
+    color: white;
+    font-family: 'GrenzeRegular';
+    font-size: 2.5vw; 
+    top: 20%;
+    margin-left: 10%;
+    text-align: left;
+}
+
+.m-button{
+    font-family: 'GrenzeRegular';
+    font-size: 2.5vw; 
+    margin-left: 10%;
+    background-color: rgb(97, 0, 0);
+    width: 10%; 
+    border-radius: 20px;
+    border-color: rgba(255, 0, 0, 0);
+}
+
+.m-button:hover {
+
+    transition: 0.3s;
+    width: 12vw; 
+    border-radius: 20px;
+}
+
 .link1{
     color: white;
+
     text-decoration: none;
+    width: 12vw; 
+    border-radius: 20px;
 }
-@font-face
-{
-font-family: GrenzeRegular;
-src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
+
+@font-face {
+    font-family: GrenzeRegular;
+    src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
+}
+
+@media screen and (max-width: 992px) {
+    .m-img1{
+        margin-left: 0; 
+        width: 50%; 
+    }
+
+    .m-txt {
+        margin: 0 5%; 
+        text-align: center; 
+    }
+
+    .m-h1 h1, .m-h1 h2{
+        font-size: 16pxs; 
+        margin-left: 50%; 
+        transform: translateX(-50%); }
+    .m-button, .link1{
+        margin-left: 35%; 
+        border-radius: 20px;
+        text-align: center;
+        background-color: rgb(97, 0, 0);
+        font-size: 16px;
+        width: 25%;
+
+    }
 }

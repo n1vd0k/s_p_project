@@ -19,9 +19,13 @@ const Mamba = () => {
                 Publishing house: Bombora, 2021<br/><br/>
                 Series: Gift editions. Sport<br/><br/>
                 </h2>
-                <button><Link className="link1" to={'https://www.amazon.com/Mamba-Mentality-How-Play/dp/0374201234'}>Buy now<br/> 10.79$</Link></button>
+                
+            </div >
+            <div className="m-button">
+                <Link className="link1" to={'https://www.amazon.com/Mamba-Mentality-How-Play/dp/0374201234'}>Buy now<br/> 10.79$</Link>
             </div>
             <div>
+            
                 <p className="m-txt">
                 Summary of the book "Kobe Bryant. The Mamba Mentality. The philosophy of my game"<br/><br/>
 

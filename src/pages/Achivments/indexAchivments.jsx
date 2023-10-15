@@ -4,7 +4,8 @@ import ACHIVMENTS from "../../header/ach";
 const Achivments = () => {
     return(
         <div>
-        <ACHIVMENTS/>    
+        <ACHIVMENTS/>
+        <img className="ac-img1" src="./site content/ac1.jpg" alt=""></img>    
         <p className="txt">
         5-time NBA champion : 2000, 2001, 2002, 2009, 2010<br/>
         7 NBA Finals appearances: 2000, 2001, 2002, 2004, 2008, 2009, 2010<br/>
@@ -42,8 +43,8 @@ const Achivments = () => {
         The Player of the Month was awarded separately for the Eastern and Western Conference starting with the 2001-02 season.
         
         </p>
-        <img className="ac-img1" src="./site content/ac1.jpg" alt=""></img>
         <img className="ac-img2" src="./site content/ac2.jpg" alt=""></img>
+        
         </div>
     );
 }

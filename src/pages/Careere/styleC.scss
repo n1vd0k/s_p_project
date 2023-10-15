@@ -2,53 +2,51 @@
     background-color: rgb(23, 23, 23);
     color: white;
 }
+
 .txt1{
-    font-family:'GrenzeRegular' ;
-    font-size: 28px;
+    font-family: 'GrenzeRegular';
+    font-size: 2.5vw; /* Используйте относительные единицы для шрифтов */
     text-align: left;
-    margin-left: 10%;
-    margin-top: 5%;
-    line-height: 2;
+    margin-left: 5%; /* Измените отступ, чтобы текст был ближе к левому краю */
+    margin-top: 3%; /* Измените отступ сверху */
+    line-height: 1.6; /* Уменьшите высоту строки для лучшей читаемости */
 }
+
 .txt2{
-    font-family:'GrenzeRegular' ;
-    font-size: 28px;
+    font-family: 'GrenzeRegular';
+    font-size: 2.5vw; /* Используйте относительные единицы для шрифтов */
     text-align: left;
-    margin-left: 27%;
-    line-height: 2;
+    margin-left: 10%; /* Измените отступ, чтобы текст был ближе к левому краю */
+    line-height: 1.6; /* Уменьшите высоту строки для лучшей читаемости */
 }
+
 .txt3{
-    font-family:'GrenzeRegular' ;
-    font-size: 28px;
+    font-family: 'GrenzeRegular';
+    font-size: 2.5vw; /* Используйте относительные единицы для шрифтов */
     text-align: left;
-    margin-left: 10%;
-    margin-top: 3%;
-    line-height: 2;
+    margin-left: 10%; /* Измените отступ, чтобы текст был ближе к левому краю */
+    margin-top: 2%; /* Измените отступ сверху */
+    line-height: 1.6; /* Уменьшите высоту строки для лучшей читаемости */
 }
-.body-img1{
-    margin-right: -60% ;
-    margin-top: -20%;
-    width: 228px;
-    
-}
-.body-img2{
-   margin-left: -41%;
-   margin-top: 10%;
-    width: 300px;
-    position: absolute;
 
-    
+.body-img1, .body-img2, .body-img3{
+    width: 30%; /* Автоматический масштаб по ширине */
+    max-width: 100%; /* Установите максимальную ширину */
+    height: auto; /* Автоматическая высота для сохранения пропорций изображения */
+    margin-bottom: 2%; /* Используйте проценты для отступов */
 }
-.body-img3{
-    margin-right: -60% ;
-    margin-bottom: 5%;
-    margin-top: -70%;
-    width: 250px;
 
-    
+@font-face {
+    font-family: GrenzeRegular;
+    src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
 }
-@font-face
-{
-font-family: GrenzeRegular;
-src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
+
+/* Медиа-запрос для мобильных устройств */
+@media screen and (max-width: 992px) {
+    .txt1, .txt2, .txt3{
+        font-size: 16px; /* Установите фиксированный размер шрифта для мобильных устройств */
+        margin: 0 5%; /* Сброс отступов по бокам */
+        text-align: center; /* Центрируйте текст на мобильных устройствах */
+    }
+
 }

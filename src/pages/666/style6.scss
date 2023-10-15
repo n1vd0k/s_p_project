@@ -1,56 +1,44 @@
-.body{
+.body {
     background-color: rgb(23, 23, 23);
     color: white;
 }
 
-.tren-txt1{
-    font-family:'GrenzeRegular' ;
+.tren-txt1, .tren-txt2, .tren-txt3 {
+    font-family: 'GrenzeRegular';
     font-size: 28px;
     text-align: left;
     margin-left: 10%;
-    margin-top: 5%;
-    line-height: 2;
-}
-.tren-txt2{
-    font-family:'GrenzeRegular' ;
-    font-size: 28px;
-    text-align: left;
-    margin-left: 27%;
-    line-height: 2;
-}
-.tren-txt3{
-    font-family:'GrenzeRegular' ;
-    font-size: 28px;
-    text-align: left;
-    margin-left: 10%;
-    margin-top: 3%;
-    line-height: 2;
-}
-.tren-img1{
-    margin-right: -60% ;
-    margin-top: -20%;
-    width: 228px;
-    
-}
-.tren-img2{
-   margin-left: -41%;
-   margin-top: 0%;
-    width: 250px;
-    position: absolute;
-
-    
-}
-.tren-img3{
-    margin-right: -60% ;
-    margin-bottom: 5%;
-    margin-top: -70%;
-    width: 500px;
-
-    
-}
-@font-face
-{
-font-family: GrenzeRegular;
-src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf");
+    line-height: 1.6; /* Уменьшите высоту строки для лучшей читаемости */
 }
 
+.tren-txt2 {
+    margin-left: 10%; /* Измените отступ, чтобы текст был ближе к другим элементам */
+}
+
+.tren-img1, .tren-img2, .tren-img3 {
+    width: 30%; /* Заполните ширину контейнера */
+    max-width: 100%; /* Установите максимальную ширину */
+    height: auto; /* Автоматическая высота для сохранения пропорций изображения */
+}
+
+@font-face {
+    font-family: GrenzeRegular;
+    src: url("C:\Users\evdok\OneDrive\Рабочий стол\summer project\summer\font\Grenze-Regular.ttf") /* Поправьте путь к файлу шрифта */
+}
+
+@media (max-width: 992px) { 
+    .tren-txt1, .tren-txt2, .tren-txt3 {
+        font-size: 18px; /* Уменьшите размер шрифта для мобильных устройств */
+        text-align: center; /* Центрируйте текст на мобильных устройствах */
+        margin: 0; /* Сброс отступов */
+    }
+
+    .tren-img1, .tren-img3 {
+        margin: 0;
+        width: 50%; /* Сброс отступов */
+    }
+
+    .tren-img2 {
+        display: none; /* Скрыть изображение на мобильных устройствах */
+    }
+}
